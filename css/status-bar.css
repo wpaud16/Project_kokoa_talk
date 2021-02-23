@@ -1,0 +1,33 @@
+/*  원래는 justify 를  space-between 을 하는데 정확하게 반으로 하고싶다면 center 로하고*/
+.status-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 각가의 자식 요소에 33% 를 주고 */
+.status-bar__column {
+  width: 33%;
+}
+
+.status-bar__column:first-child span {
+  margin-right: 5px;
+}
+
+/* 가운데 있는 애맨 중앙에 놓고 */
+.status-bar__column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  padding: 5px 3px; 
+}
+
+/* 마지막 애는 끝에 놓는다 */
+.status-bar__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.status-bar__column .fa-battery-full {
+  margin: 0px 5px;
+}
