@@ -3,6 +3,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  position: fixed;
+  top: 0px;
+  width: 100%;
 }
 
 /* 각가의 자식 요소에 33% 를 주고 */
@@ -18,7 +21,7 @@
 .status-bar__column:nth-child(2) {
   display: flex;
   justify-content: center;
-  padding: 5px 3px; 
+  padding: 5px 3px;
 }
 
 /* 마지막 애는 끝에 놓는다 */
