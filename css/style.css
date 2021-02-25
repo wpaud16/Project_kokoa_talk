@@ -4,14 +4,14 @@
 @import "badge.css";
 
 /* header */
-@import "header/status-bar.css";
-@import "header/home.css";
+@import "header/friend__status-bar.css";
+@import "header/sub_state_bar.css";
 
 /* main */
-@import "main/login.css";
-@import "main/friend.css";
-@import "main/user-component.css";
-@import "main/search.css";
+@import "main/index__login.css";
+@import "main/friend__friend.css";
+@import "main/chat__user-component.css";
+@import "main/find__search.css";
 
 /* footer */
 @import "footer/nav-bar.css";
