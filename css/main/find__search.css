@@ -33,3 +33,9 @@
   color: rgba(0,0,0,0.5);
   font-size: 18px;
 }
+
+.open-chat__header {
+  display: flex;
+  justify-content: space-between;
+  opacity: 0.8;
+}
