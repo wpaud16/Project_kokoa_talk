@@ -12,6 +12,8 @@
 @import "main/friend__friend.css";
 @import "main/chat__user-component.css";
 @import "main/find__search.css";
+@import "main/more__icons.css";
+@import "main/more__more.css";
 
 /* footer */
 @import "footer/nav-bar.css";
@@ -19,6 +21,7 @@
 body {
   font-family: sans-serif;
   font-weight: bold;
+  height: auto;
 }
 
 .main-screen {

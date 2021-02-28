@@ -1,0 +1,4 @@
+/* main-screen 안에 있는 애들중에 icon-row 인 애들만 해당 */
+.more-screen .icon-row {
+    margin-top: 35px;
+}

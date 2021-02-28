@@ -34,3 +34,5 @@
 .status-bar__column .fa-battery-full {
   margin: 0px 5px;
 }
+
+/*  항목이 3개면 frist child margin right auto // last child margin left auto */
